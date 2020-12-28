@@ -6,7 +6,8 @@ function App() {
   let [count, setCount] = useState(0);
 
   function increase() {
-    setCount(++count);
+    setCount(++count); 
+    // setCount function is used to change the initial value of the variable.
   }
 
   function decrease() {
